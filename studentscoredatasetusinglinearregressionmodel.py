@@ -81,6 +81,6 @@ interface = gr.Interface(
     ],
     outputs = gr.Textbox(label='Predicted Score'),
     title = 'Project 1 - Score Prediction',
-    description = "Details you want to look at?? (Inspire_Gen AI Internship)"
+    description = "Student Score Dataset"
     )
 interface.launch(debug=True)
